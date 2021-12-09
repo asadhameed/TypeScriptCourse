@@ -11,3 +11,19 @@
    1. first import the file or modules
    2. definitions interface
    3. definitions class
+
+[01 Sort Design Pattern]
+
+1. tsConfig.json
+2. unionType
+3. interface and abstract classes
+
+[02 Reusable Code]
+
+1. tsConfig.json
+2. enum
+3. tuples
+4. generic
+5. inheritance use extends
+6. composition use interface and implements
+7. static method
