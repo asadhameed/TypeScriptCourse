@@ -1,0 +1,25 @@
+{
+  "name": "04_express_typescript",
+  "version": "1.0.0",
+  "description": "This Project helps to understand the concept of typescript and how can make own web framework",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "tsc -w",
+    "dev:run": "nodemon build/index.js",
+    "dev": "concurrently npm:dev:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15",
+    "reflect-metadata": "^0.1.13"
+  },
+  "dependencies": {
+    "@types/cookie-session": "^2.0.43",
+    "@types/express": "^4.17.13",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1"
+  }
+}
